@@ -1,18 +1,17 @@
-.main-article{
-font-size: 60px;
-border: pink 5px solid;
-color: magenta;
-}
+.img {
+  width: 400px;
+  box-sizing: border-box;
+  /* height: 400px; */
+  
+  border: 3px solid red;
+  border-left: none;
+  border-right-style: dotted;
+  border-bottom-color: rgb(45, 22, 170);
+  border-top-width: 20px;
 
-.article-header{
-font-size: 1.1em;
-border: inherit;
-}
-
-.article-content{
-font-size: initial;
-}
-
-.article-link{
-color: inherit;
+  padding: 15px 30px;
+  /* padding-left: 5px;
+  padding-right: 45px;
+   */
+  margin: 30px;
 }
