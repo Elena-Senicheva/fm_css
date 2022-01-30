@@ -1,24 +1,14 @@
-.container{
-  border: 5px solid crimson;
-  padding: 15px;
-  height: 70vh;
-  font-size: 30px;
-  background-color: grey;
-  background-image: url(./../images/sea.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
+.profile-pic-good{
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
 }
-.btn{
-  font-size: 30px;
-  padding: 15px;
-  text-transform: capitalize;
-  min-width: 50px;
-  width: 100%;
-  max-width: 300px;
-  
-
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.profile-pic-bad{
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+  background-image: url(./../images/Cat_November.jpg);
+  background-size: cover;
 }
